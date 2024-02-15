@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { testeando } from "./prueba";
+import Prueba from "./Prueba";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <testeando/>
+    <Prueba />
   </React.StrictMode>
 );
